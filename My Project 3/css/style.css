@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    font-family:monospace;
+    line-height: 1.5em;
+    background-color:#ccc;
+}
+
+#wrapper{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: wheat;
+}
+
+  /*Navigation Starts*/
+
+nav{
+    
+    background-color: coral;
+    padding: 20px;
+    
+}
+
+#menu , #logo{
+    display: inline-block;
+    
+    
+}
+
+#menu{
+    float: right;
+   
+}
+
+#menu ul{
+    list-style-type: none;
+    display: block;
+  
+    
+     
+    
+}
+
+#menu ul li{
+    
+    display: inline-block;
+    margin-right: 20px;
+    
+    
+    
+    
+    
+    
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+    
+    
+}
+
+#menu ul li a:hover{
+    
+    font-size: 20px;
+    font-style: italic;
+    text-indent: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu ul li a:active{
+    color: hotpink;
+}
+
+#menu ul li a:visited{
+    color: indianred;
+}
+
+
+   /*  nav ends*/
+
+
+      /*header starts*/
+
+
+header{
+    background:url(../Imges/pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    opacity: 0.7;
+
+}
+
+header h4{
+    color: white;
+    text-align: center;
+}
+
+
+header p,h4{
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 20px;
+}
+
+header p{
+    padding: 20px;
+    text-indent: 15px;
+    letter-spacing: 2px;
+}
+
+   /* header ends*/
+
+
+
+    /*Content Starts*/
+
+
+#content{
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   background-color:tan;
+   height: auto;
+   
+   
+    
+}
+
+
+#footer{
+    
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+
+
+
+#content #para-1,
+#content #para-2,
+
+#content #para-3{
+
+    display: inline-block;
+    float: left;
+    width: 30.33333%;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    background-color: brown;
+}
+
+#para-1 h2{
+    text-align: center;
+    padding-bottom: 25px;
+    
+    
+}
+
+#para-2 h2{
+    text-align: center;
+    padding-bottom: 25px;
+    
+    
+}
+    
+#para-3 h2{
+    text-align: center;
+    padding-bottom: 25px;
+    
+    
+}
+    
+
+    
+    
+   
+    
+    
+
+
+#para-1{
+    background-color: black;
+    padding-left: 10px;
+    margin-left: 18px;
+    text-align: justify;
+}
+
+#para-2{
+    background-color: black;
+    text-align: justify;
+}
+
+#para-3{
+    background-color: black;
+    text-align: justify;
+}
+
+#footer{
+    
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+
+#footer .p1{
+    
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 350px;;
+    
+}
+
+
+@media screen and (max-width:500px){
+    
+    
+    
+    #wrapper{
+        width: 100%;
+        padding: 2px;
+        overflow: hidden;
+        
+    }
+    
+    nav{
+        
+     background-color: sandybrown;
+        color: black;
+        text-align: center;
+        
+        
+        
+    }
+    
+    #logo{
+        width: 100%;
+        
+    }
+    
+    #menu{
+        float: none;
+        width: 100%;
+        
+    }
+    
+    #menu ul{
+        
+        display: block;
+    }
+    
+    #menu ul li{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    #menu ul li a{
+        
+        display: block;
+    }
+    
+    header{
+        
+        padding-bottom: 20px;
+    }
+    
+   
+    
+    header p{
+        text-align:center;
+        text-indent: 20px;
+        letter-spacing: -1px;
+        color:white;
+        padding-top: 20px;
+        
+    
+    }
+    
+    #content{
+        padding: 5px;
+    text-align: center;
+}
+    
+    
+    
+ #content #para-1{
+        width: 95%;
+        display: block;
+     margin:0px;
+     margin-bottom: 5px;
+    }
+    
+    
+    
+    #content #para-2{
+        width: 95%;
+        display: block;
+     margin:0px;
+        margin-bottom: 5px;
+    }
+    
+    #content #para-3{
+        width: 95%;
+        display: block;
+     margin:0px;
+    }
+    
+    #footer{
+        width: 100%;
+    }
+    
+ #footer .p1{
+     
+     position: relative;
+     right:330px;
+     width: 92%;
+     margin-left: 
+     margin: 0px;
+       
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
